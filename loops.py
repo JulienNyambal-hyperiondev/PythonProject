@@ -1,16 +1,16 @@
-numbers = [1,2,3,4,5, 6,7,8,9,10]
+# numbers = [1,2,3,4,5, 6,7,8,9,10]
 
-total = 0
-counter = 0
+# total = 0
+# counter = 0
 
-while counter < len(numbers):
-    total = total + numbers[counter]
-    print(f"The current number is {counter} and the total is {total}")
-    counter = counter + 1
-print(f"The total is {total}")
+# while counter < len(numbers):
+#     total = total + numbers[counter]
+#     print(f"The current number is {counter} and the total is {total}")
+#     counter = counter + 1
+# print(f"The total is {total}")
 
 
-# contacts = ["Julien", "Riaan", "Armand"]
+contacts = ["Julien", "Riaan", "Armand", "Saliha"]
 
-# for contact in contacts:
-#     print(f"Contact : {contact}")
+for contact in contacts:
+    print(f"Contact : {contact}")
